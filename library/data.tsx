@@ -35,51 +35,51 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated Web development bootcamp",
+    location: "London, UK",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 3 months of studying.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "July 2023 - Oct 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Due Diligence Researcher/Data Processor",
+    location: "London, UK",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a Due Diligence Researcher dealing with visa/citizenship applications for 3 years.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "May 2020 – May 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Office Manager",
+    location: "Taipei, TW",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "As an office manager, I assistied with director and supporting all departments admin works",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Jan 2019 – Feb 2020",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Terry's Cafe",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "This was my first project which I tried to copy Terry's cafe website as a pratice project as it does not look too complicated so suitable for a beginner",
+    tags: ["HTML", "CSS", "Javascript"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Nespresso website",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "My second project was Nespresso website, it has more responsive feature and good to pratice different screen size modes.",
+    tags: ["HTML", "CSS", "Javascript", "SCSS"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Ohmyfood",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "My third project is from the bootcamp, I practiced more Sass feasure and animation function.",
+    tags: ["HTML", "CSS", "SCSS"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -94,14 +94,6 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "SASS",
 ] as const;
