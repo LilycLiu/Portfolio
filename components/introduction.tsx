@@ -5,29 +5,32 @@ import LilyPic from '../images/Lily.png'
 import React from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import {BsArrowRight} from "react-icons/bs"
+import { BsArrowRight } from "react-icons/bs"
+import { HiDownload } from "react-icons/hi"
+import { BsLinkedin} from "react-icons/bs"
+import { FaGithubSquare } from 'react-icons/fa'
 
 export default function Introduction() {
   return (
     <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
-      <div className='flex items-center justify-center'>
-        <motion.p className='mt-4 px-4 text-sm font-medium !leading-[1.5] sm:text-2xl'
+      <div className='flex items-center justify-center pb-9'>
+        <motion.p className='mt-4 px-4 text-sm font-medium !leading-[1.5] sm:text-2xl text-purple-100'
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1 , y: 0 }}
         >
-          <span className='font-bold'>Lily Liu, </span>
-          <span className='font-bold'>Front-end developer</span> and <span className='font-bold'>Afternoon tea </span>lover, 
+          <span className='text-3xl'>Lily Liu, </span>
+          <span className='font-bold'>front-end developer</span> and <span className='font-bold'>afternoon tea lover</span>, 
           <span className='font-bold'> <br/>10 </span>years work experience. <br/>I specialised in <br/> 
           <span className= 'font-bold underline'>React,Tailwind CSS,SCSS.</span><br/>
             Enjoy building and playing with <span className='italic'>websites and apps.</span>
         </motion.p>     
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1 , scale: 1 }}
-            transition={{
-              type: "tween",
-              duration: 0.3,
-            }}
+          animate={{ opacity: 1 , scale: 1 }}
+          transition={{
+            type: "tween",
+            duration: 0.3,
+          }}
           >
             <Image
              src={LilyPic} 
@@ -42,10 +45,30 @@ export default function Introduction() {
 
         </div>
         
-        <div>
-            <Link href='#contact'>Contact me
-            <BsArrowRight /></Link>
-        </div>
+        <motion.div className='flex flex-col  sm:flex-row items-center justify-around px-4 text-lg font-medium'
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1 , y: 0 }}
+        transition={{
+          delay: 0.2,
+        }}
+        >
+            <Link href='#contact' 
+            className='group text-pink-200  bg-purple-900 px-7 py-3 flex items-center gap-4 rounded-lg outline-none focus:scale-110 hover:scale-110 hover:bg-purple-900 active:scale-105 transition'
+            >
+              Contact me{" "}
+            <BsArrowRight className='opacity-70 transition group-hover:translate-x-1' /></Link>
+            <a className='group bg-white text-pink-900 px-7 py-3 flex items-center gap-4 rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer' href="/CV.pdf" download>CV Download <HiDownload className='opacity-60 group-hover:animate-bounce w-5 h-5' />
+            </a>
+
+            <a className='bg-white text-pink-800 p-4  flex items-center gap-4 rounded-lg'>
+              <BsLinkedin />
+            </a>
+
+            <a className='bg-white text-pink-800 p-4  flex items-center gap-4 text-[1.35rem] rounded-lg'>
+              <FaGithubSquare />
+            </a>
+
+        </motion.div>
         
     </section>
   )
