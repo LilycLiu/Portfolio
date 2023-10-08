@@ -14,7 +14,7 @@ export default function Introduction() {
   return (
     <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
       <div className='flex items-center justify-center pb-9'>
-        <motion.p className='mt-4 px-4 text-sm font-medium !leading-[1.5] sm:text-2xl text-purple-100'
+        <motion.h1 className='mt-4 px-4 text-sm font-medium !leading-[1.5] sm:text-2xl text-purple-100'
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1 , y: 0 }}
         >
@@ -23,7 +23,7 @@ export default function Introduction() {
           <span className='font-bold'> <br/>10 </span>years work experience. <br/>I specialised in <br/> 
           <span className= 'font-bold underline'>React,Tailwind CSS,SCSS.</span><br/>
             Enjoy building and playing with <span className='italic'>websites and apps.</span>
-        </motion.p>     
+        </motion.h1>     
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
           animate={{ opacity: 1 , scale: 1 }}
@@ -57,14 +57,14 @@ export default function Introduction() {
             >
               Contact me{" "}
             <BsArrowRight className='opacity-70 transition group-hover:translate-x-1' /></Link>
-            <a className='group bg-white text-pink-900 px-7 py-3 flex items-center gap-4 rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer' href="/CV.pdf" download>CV Download <HiDownload className='opacity-60 group-hover:animate-bounce w-5 h-5' />
+            <a className='group bg-white text-pink-900 px-7 py-3 flex items-center gap-4 rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border-black/10' href="/CV.pdf" download>CV download <HiDownload className='opacity-60 group-hover:animate-bounce w-5 h-5' />
             </a>
 
-            <a className='bg-white text-pink-800 p-4  flex items-center gap-4 rounded-lg'>
+            <a className='bg-white text-pink-800 p-4  flex items-center gap-4 rounded-lg focus:scale-[1.15] hover:scale-[1.15] hover:text-pink-500 active:scale-105 transition cursor-pointer border-black/10' href='https://www.linkedin.com/in/lily-liu-323568b2/' target='_blank'>
               <BsLinkedin />
             </a>
 
-            <a className='bg-white text-pink-800 p-4  flex items-center gap-4 text-[1.35rem] rounded-lg'>
+            <a className='bg-white text-pink-800 p-4  flex items-center gap-4 text-[1.35rem] rounded-lg focus:scale-[1.15] hover:scale-[1.15] hover:text-pink-500 active:scale-105 transition cursor-pointer border-black/10' href='https://github.com/LilycLiu' target='_blank'>
               <FaGithubSquare />
             </a>
 
