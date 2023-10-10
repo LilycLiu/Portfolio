@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import ohmyfoodImg from "@/public/Ohmyfood.jpg";
+import nespressositeImg from "@/public/nespressosite.jpg";
+import terryscafeImg from "@/public/terryscafe.jpg";
 
 export const links = [
   {
@@ -66,21 +66,21 @@ export const projectsData = [
     description:
       "This was my first project which I tried to copy Terry's cafe website as a pratice project as it does not look too complicated so suitable for a beginner",
     tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: corpcommentImg,
+    imageUrl: terryscafeImg,
   },
   {
     title: "Nespresso website",
     description:
       "My second project was Nespresso website, it has more responsive feature and good to pratice different screen size modes.",
     tags: ["HTML", "CSS", "Javascript", "SCSS"],
-    imageUrl: rmtdevImg,
+    imageUrl: nespressositeImg,
   },
   {
     title: "Ohmyfood",
     description:
       "My third project is from the bootcamp, I practiced more Sass feasure and animation function.",
     tags: ["HTML", "CSS", "SCSS"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: ohmyfoodImg,
   },
 ] as const;
 
