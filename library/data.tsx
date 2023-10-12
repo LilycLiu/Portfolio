@@ -40,7 +40,7 @@ export const experiencesData = [
     description:
       "I graduated after 3 months of studying.",
     icon: React.createElement(LuGraduationCap),
-    date: "July 2023 - Oct 2023",
+    date: "2023",
   },
   {
     title: "Due Diligence Researcher/Data Processor",
@@ -48,15 +48,15 @@ export const experiencesData = [
     description:
       "I worked as a Due Diligence Researcher dealing with visa/citizenship applications for 3 years.",
     icon: React.createElement(CgWorkAlt),
-    date: "May 2020 – May 2023",
+    date: "2020",
   },
   {
     title: "Office Manager",
-    location: "Taipei, TW",
+    location: "Taipei, TW" ,
     description:
       "As an office manager, I assistied with director and supporting all departments admin works",
     icon: React.createElement(FaReact),
-    date: "Jan 2019 – Feb 2020",
+    date: "2019",
   },
 ] as const;
 

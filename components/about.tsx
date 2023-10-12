@@ -3,16 +3,11 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import SectionHeading from './section-heading';
-import { useInView } from 'react-intersection-observer';
-import { useActiveSectionContext } from '@/context/active-section-context';
+import { useSectionInView } from '@/library/hooks';
 
 export default function About() {
-  const {ref, inView} = useInView();
-  const { setActiveSection } = useActiveSectionContext();
-  
-  if (inView) {
-    setActiveSection('About');
-  }
+  const {ref} = useSectionInView('About');
+ 
 
   return (
     <motion.section 

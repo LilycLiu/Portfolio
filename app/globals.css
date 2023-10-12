@@ -3,3 +3,10 @@
 @tailwind utilities;
 
 
+html {
+    --line-color: #fec5e5;
+}
+
+.borderBlack {
+    @apply border border-black/10;
+}
