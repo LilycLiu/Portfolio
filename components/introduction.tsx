@@ -23,7 +23,7 @@ export default function Introduction() {
       className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[80rem]'
     >
       <div className='flex items-center justify-center pb-9'>
-        <motion.h1 className='mt-4 px-4 text-sm font-medium !leading-[1.5] sm:text-2xl text-purple-100 dark:text-purple-400' 
+        <motion.h1 className='mt-4 px-4 text-sm font-medium !leading-[1.5] sm:text-2xl text-purple-900 dark:text-purple-400' 
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1 , y: 0 }}
         >
