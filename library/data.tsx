@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import ohmyfoodImg from "@/public/Ohmyfood.jpg";
+import ohmyfoodImg from "@/public/ohmyfood.jpg";
 import nespressositeImg from "@/public/nespressosite.jpg";
 import terryscafeImg from "@/public/terryscafe.jpg";
 
