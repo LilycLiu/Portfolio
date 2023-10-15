@@ -19,7 +19,7 @@ export default function About() {
     id='about'
     >
       <SectionHeading>About me</SectionHeading>
-      <p className='mb-3'>
+      <p className='mb-3 dark:text-purple-400'>
         After many years in {" "}
         <span className="font-medium">admin industry</span>, I decided to pursue my
         dream in programming. I enrolled in a coding bootcamp and learnt{" "}
@@ -37,7 +37,7 @@ export default function About() {
         developer.
       </p>
 
-      <p>
+      <p className='dark:text-purple-400'>
         <span className="italic">When I'm not coding</span>, I enjoy trying different afternoon tea
         , watching movies, and travelling. I also enjoy{" "}
         <span className="font-medium">learning new things</span>.

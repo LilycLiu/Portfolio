@@ -10,3 +10,7 @@ html {
 .borderBlack {
     @apply border border-black/10;
 }
+
+.vertical-timeline-element-icon .vertical-timeline-element-content .is-hidden {
+    display: block!important;
+}
