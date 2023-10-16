@@ -2,7 +2,7 @@ import Header from '@/components/header'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import ActiveSectionContextProvider from '@/context/active-section-context'
-import { Toaster } from 'react-hot-toast'
+import { Toaster } from "react-hot-toast";
 import ThemeContextProvider from "@/context/theme-context";
 import Footer from '@/components/footer'
 import ThemeSwitch from '@/components/theme-switch'
@@ -31,7 +31,7 @@ export default function RootLayout({
             <Header />
             {children}
             <Footer />
-            <Toaster position="top-right" />
+            <Toaster position="bottom-right" />
             <ThemeSwitch />
             </ActiveSectionContextProvider>
             </ThemeContextProvider>
