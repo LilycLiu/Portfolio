@@ -31,7 +31,7 @@ export default function Introduction() {
           <span className='text-3xl'>Lily Liu, </span>
           <span className='font-bold'>front-end developer</span> and <span className='font-bold'>bubble tea lover</span>, 
           <span className='font-bold'> <br/>10 </span>years work experience. <br/>I specialise in <br/> 
-          <span className= 'font-bold underline'>React,Tailwind CSS,Sass.</span><br/>
+          <span className= 'font-bold underline'>React, Typescript, Tailwind CSS, Sass.</span><br/>
             Enjoy building and playing with <span className='italic'>websites and apps.</span>
         </motion.h1>     
         <motion.div
