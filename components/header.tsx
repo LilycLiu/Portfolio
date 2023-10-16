@@ -28,8 +28,8 @@ export default function Header() {
                     animate={{ y: 0, opacity: 1 }}
                     >
                         <Link 
-                            className={clsx('flex w-full items-center justify-center px-3 py-3 hover:text-purple-950 transition dark:text-purple-800 dark:hover:text-purple-500', {
-                                'text-purple-950 dark:text-pink-200':activeSection === link.name,
+                            className={clsx('flex w-full items-center justify-center px-3 py-3 hover:text-purple-950 transition dark:text-purple-800 dark:hover:text-pink-400', {
+                                'text-purple-950 dark:text-pink-300':activeSection === link.name,
                             })} 
                             href={link.hash}
                             onClick={() => {
@@ -52,7 +52,6 @@ export default function Header() {
                                 )}
                         </Link>
                     </motion.li>
-                
                 ))}
             </ul>
         </nav>

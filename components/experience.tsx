@@ -25,7 +25,7 @@ export default function Experience() {
               visible={ true }
               contentStyle={{
                 background: 
-                theme === "light" ? '#F4C2C2' : "rgba(246, 74, 138, 0.05)",
+                theme === "light" ? '#F4C2C2' : "rgba(204, 171, 235, 0.05)",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
@@ -50,7 +50,7 @@ export default function Experience() {
               }}
             >
               <h3 className="font-semibold capitalize text-pink-800 dark:text-pink-300">{item.title}</h3>
-              <p className="font-normal !mt-0 text-pink-700 dark:text-[#FFD1DC]">{item.location}</p>
+              <p className="font-normal !mt-0 text-pink-700 dark:text-[rgb(196,96,169)]">{item.location}</p>
               <p className="!mt-1 !font-normal text-purple-600 dark:text-[#fcbacb]">
                 {item.description}
               </p>
