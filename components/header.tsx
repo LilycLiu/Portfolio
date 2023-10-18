@@ -41,7 +41,7 @@ export default function Header() {
                         {link.name}
                             {
                                 link.name === activeSection && (
-                                <motion.span className='bg-pink-200 rounded-lg absolute inset-0 -z-10 dark:bg-purple-200'
+                                <motion.span className='bg-pink-300 rounded-lg absolute inset-0 -z-10 dark:bg-purple-300'
                                 layoutId='activeSection'
                                 transition={{
                                     type: "string",
