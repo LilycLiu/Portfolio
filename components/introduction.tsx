@@ -72,7 +72,7 @@ export default function Introduction() {
             <BsArrowRight className='opacity-70 transition group-hover:translate-x-1' /></Link>
             <a className='group bg-pink-50 text-pink-900 px-7 py-3 flex items-center gap-4 rounded-lg outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-pink-200/20 dark:text-pink-200' href="/CV.pdf" download>CV download <HiDownload className='opacity-60 group-hover:animate-bounce w-5 h-5' />
             </a>
-            <a className='bg-pink-50 text-pink-800 p-4 flex items-center gap-4 rounded-lg focus:scale-[1.15] hover:scale-[1.15] hover:text-pink-500 active:scale-105 transition cursor-pointer borderBlack dark:bg-pink-200/20 dark:text-red-300' href='https://www.linkedin.com/in/lily-liu-323568b2/' target='_blank'>
+            <a className='bg-pink-50 text-pink-800 p-4 flex items-center gap-4 rounded-lg focus:scale-[1.15] hover:scale-[1.15] hover:text-pink-500 active:scale-105 transition cursor-pointer borderBlack dark:bg-pink-200/20 dark:text-red-300' href='https://www.linkedin.com/in/lilycliu/' target='_blank'>
               <BsLinkedin />
             </a>
             <a className='bg-pink-50 text-pink-800 p-4 flex items-center gap-4 text-[1.35rem] rounded-lg focus:scale-[1.15] hover:scale-[1.15] hover:text-pink-500 active:scale-105 transition cursor-pointer borderBlack dark:bg-pink-200/20 dark:text-red-300' href='https://github.com/LilycLiu' target='_blank'>
